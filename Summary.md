@@ -1,15 +1,14 @@
-# Summary: Trader Behavior vs Market Sentiment
+# 📊 Summary: Trader Performance vs Market Sentiment
 
-This analysis explores the relationship between market sentiment (Fear/Greed) and trader behavior using Hyperliquid trading data.
+## Methodology
+The datasets were cleaned and validated with no missing or duplicate values. Timestamps were standardized and both datasets were merged on a daily level to align market sentiment with trading activity. Key metrics such as daily PnL, win rate, trade frequency, and average trade size were created to analyze trader performance.
 
-The datasets were first cleaned and validated, ensuring no missing or duplicate records. Timestamps were standardized, and both datasets were merged on a daily level to align sentiment with trading activity.
+## Insights
+- Traders achieve the highest profitability during Extreme Greed conditions, indicating strong bullish sentiment improves outcomes.
+- Trade sizes are highest during Fear conditions, suggesting increased risk-taking during uncertain markets.
+- Trading activity and win rates are higher during Greed phases, reflecting more confident and successful trading behavior.
 
-Key metrics such as daily PnL, win rate, trade frequency, and average trade size were created to evaluate performance.
-
-The analysis reveals that trader profitability is highest during Extreme Greed conditions, suggesting that bullish sentiment leads to better outcomes. Conversely, traders tend to take larger position sizes during Fear periods, indicating increased risk-taking behavior in uncertain markets.
-
-Additionally, trading activity and win rates are higher during Greed phases, reflecting more confident and successful trading decisions.
-
-Based on these findings, it is recommended that traders reduce position sizes during Fear conditions and adopt more active but controlled strategies during Greed phases.
-
-This study demonstrates that market sentiment plays a critical role in shaping trading behavior and can be leveraged to improve decision-making and risk management.
+## Strategy Recommendations
+- During Fear conditions, reduce position size and avoid aggressive trading due to lower win rates.
+- During Greed conditions, increase trading activity with controlled risk to capitalize on higher profitability.
+- Use market sentiment as a signal to dynamically adjust trading strategies for better risk management and returns.
