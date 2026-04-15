@@ -32,5 +32,5 @@ Analyze how market sentiment (Fear/Greed) influences trader behavior and perform
 - Matplotlib
 
 ## ▶️ How to Run
-1. Open the notebook `analysis.ipynb`
+1. Open the notebook `trader-sentiment-analysis (Primetrade.ai).ipynb`
 2. Run all cells sequentially
