@@ -51,3 +51,19 @@ This analysis can help:
 ## 🎯 Key Takeaway
 
 Market sentiment is a strong indicator of trader behavior and performance, and incorporating sentiment-aware strategies can significantly improve trading outcomes.
+
+
+## 📄 Summary
+
+### Methodology
+The datasets were cleaned and validated with no missing or duplicate values. Timestamps were standardized and merged on a daily level to align market sentiment with trading activity. Key metrics such as daily PnL, win rate, trade frequency, and average trade size were created.
+
+### Insights
+- Highest profitability observed during Extreme Greed conditions
+- Traders take larger positions during Fear periods
+- Trading activity and win rates increase during Greed phases
+
+### Strategy Recommendations
+- Reduce trade size during Fear conditions due to lower win rates
+- Increase trading activity during Greed with controlled risk
+- Use sentiment as a signal for adaptive trading strategies
