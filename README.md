@@ -34,3 +34,16 @@ Analyze how market sentiment (Fear/Greed) influences trader behavior and perform
 ## ▶️ How to Run
 1. Open the notebook `trader-sentiment-analysis (Primetrade.ai).ipynb`
 2. Run all cells sequentially
+
+## 📊 Key Visual Insights
+
+- Extreme Greed shows highest average profitability
+- Fear conditions show highest trade sizes (higher risk-taking)
+- Greed phases show higher trading activity and win rates
+
+## 🚀 Business Impact
+
+This analysis can help:
+- Traders adjust risk based on sentiment
+- Platforms design sentiment-based trading signals
+- Improve decision-making under volatile conditions
